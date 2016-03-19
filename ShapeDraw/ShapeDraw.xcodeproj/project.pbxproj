@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A345CBDC1C9C1508001AA326 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A345CBDB1C9C1508001AA326 /* main.m */; };
+		A345CBDF1C9C1508001AA326 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A345CBDE1C9C1508001AA326 /* AppDelegate.m */; };
+		A345CBE21C9C1508001AA326 /* MainScreenController.m in Sources */ = {isa = PBXBuildFile; fileRef = A345CBE11C9C1508001AA326 /* MainScreenController.m */; };
+		A345CBE71C9C1509001AA326 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A345CBE61C9C1509001AA326 /* Assets.xcassets */; };
+		A345CBF51C9C1509001AA326 /* ShapeDrawTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A345CBF41C9C1509001AA326 /* ShapeDrawTests.m */; };
+		A345CC001C9C1509001AA326 /* ShapeDrawUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A345CBFF1C9C1509001AA326 /* ShapeDrawUITests.m */; };
+		A345CC0E1C9C1582001AA326 /* MainScreenController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A345CC0D1C9C1582001AA326 /* MainScreenController.xib */; };
+		A345CC101C9C17C5001AA326 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A345CC0F1C9C17C5001AA326 /* MainWindow.xib */; };
+		A345CC1D1C9D252C001AA326 /* CustomBrushController.m in Sources */ = {isa = PBXBuildFile; fileRef = A345CC1B1C9D252C001AA326 /* CustomBrushController.m */; };
+		A345CC1E1C9D252C001AA326 /* CustomBrushController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A345CC1C1C9D252C001AA326 /* CustomBrushController.xib */; };
+		A345CC221C9D2562001AA326 /* DrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A345CC201C9D2562001AA326 /* DrawViewController.m */; };
+		A345CC231C9D2562001AA326 /* DrawViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A345CC211C9D2562001AA326 /* DrawViewController.xib */; };
+		A345CC261C9D2825001AA326 /* CustomLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = A345CC251C9D2825001AA326 /* CustomLineView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A345CBF11C9C1509001AA326 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A345CBCF1C9C1508001AA326 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A345CBD61C9C1508001AA326;
+			remoteInfo = PhotoMixter;
+		};
+		A345CBFC1C9C1509001AA326 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A345CBCF1C9C1508001AA326 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A345CBD61C9C1508001AA326;
+			remoteInfo = PhotoMixter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A345CBD71C9C1508001AA326 /* ShapeDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShapeDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A345CBDB1C9C1508001AA326 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A345CBDD1C9C1508001AA326 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A345CBDE1C9C1508001AA326 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A345CBE01C9C1508001AA326 /* MainScreenController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainScreenController.h; sourceTree = "<group>"; };
+		A345CBE11C9C1508001AA326 /* MainScreenController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainScreenController.m; sourceTree = "<group>"; };
+		A345CBE61C9C1509001AA326 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A345CBEB1C9C1509001AA326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A345CBF01C9C1509001AA326 /* ShapeDraw.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShapeDraw.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A345CBF41C9C1509001AA326 /* ShapeDrawTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShapeDrawTests.m; sourceTree = "<group>"; };
+		A345CBF61C9C1509001AA326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A345CBFB1C9C1509001AA326 /* ShapeDraw.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShapeDraw.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A345CBFF1C9C1509001AA326 /* ShapeDrawUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShapeDrawUITests.m; sourceTree = "<group>"; };
+		A345CC011C9C1509001AA326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A345CC0D1C9C1582001AA326 /* MainScreenController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainScreenController.xib; path = ../MainScreenController.xib; sourceTree = "<group>"; };
+		A345CC0F1C9C17C5001AA326 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainWindow.xib; path = ../MainWindow.xib; sourceTree = "<group>"; };
+		A345CC1A1C9D252C001AA326 /* CustomBrushController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomBrushController.h; sourceTree = "<group>"; };
+		A345CC1B1C9D252C001AA326 /* CustomBrushController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomBrushController.m; sourceTree = "<group>"; };
+		A345CC1C1C9D252C001AA326 /* CustomBrushController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomBrushController.xib; sourceTree = "<group>"; };
+		A345CC1F1C9D2562001AA326 /* DrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawViewController.h; sourceTree = "<group>"; };
+		A345CC201C9D2562001AA326 /* DrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawViewController.m; sourceTree = "<group>"; };
+		A345CC211C9D2562001AA326 /* DrawViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrawViewController.xib; sourceTree = "<group>"; };
+		A345CC241C9D2825001AA326 /* CustomLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomLineView.h; sourceTree = "<group>"; };
+		A345CC251C9D2825001AA326 /* CustomLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLineView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A345CBD41C9C1508001AA326 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A345CBED1C9C1509001AA326 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A345CBF81C9C1509001AA326 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A345CBCE1C9C1508001AA326 = {
+			isa = PBXGroup;
+			children = (
+				A345CBD91C9C1508001AA326 /* PhotoMixter */,
+				A345CBF31C9C1509001AA326 /* PhotoMixterTests */,
+				A345CBFE1C9C1509001AA326 /* PhotoMixterUITests */,
+				A345CBD81C9C1508001AA326 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A345CBD81C9C1508001AA326 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A345CBD71C9C1508001AA326 /* ShapeDraw.app */,
+				A345CBF01C9C1509001AA326 /* ShapeDraw.xctest */,
+				A345CBFB1C9C1509001AA326 /* ShapeDraw.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A345CBD91C9C1508001AA326 /* PhotoMixter */ = {
+			isa = PBXGroup;
+			children = (
+				A345CC191C9D252C001AA326 /* Class */,
+				A345CBDD1C9C1508001AA326 /* AppDelegate.h */,
+				A345CBDE1C9C1508001AA326 /* AppDelegate.m */,
+				A345CBE01C9C1508001AA326 /* MainScreenController.h */,
+				A345CBE11C9C1508001AA326 /* MainScreenController.m */,
+				A345CC0D1C9C1582001AA326 /* MainScreenController.xib */,
+				A345CBE61C9C1509001AA326 /* Assets.xcassets */,
+				A345CBEB1C9C1509001AA326 /* Info.plist */,
+				A345CBDA1C9C1508001AA326 /* Supporting Files */,
+			);
+			name = PhotoMixter;
+			path = ShapeDraw;
+			sourceTree = "<group>";
+		};
+		A345CBDA1C9C1508001AA326 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A345CC0F1C9C17C5001AA326 /* MainWindow.xib */,
+				A345CBDB1C9C1508001AA326 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A345CBF31C9C1509001AA326 /* PhotoMixterTests */ = {
+			isa = PBXGroup;
+			children = (
+				A345CBF41C9C1509001AA326 /* ShapeDrawTests.m */,
+				A345CBF61C9C1509001AA326 /* Info.plist */,
+			);
+			name = PhotoMixterTests;
+			path = ShapeDrawTests;
+			sourceTree = "<group>";
+		};
+		A345CBFE1C9C1509001AA326 /* PhotoMixterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A345CBFF1C9C1509001AA326 /* ShapeDrawUITests.m */,
+				A345CC011C9C1509001AA326 /* Info.plist */,
+			);
+			name = PhotoMixterUITests;
+			path = ShapeDrawUITests;
+			sourceTree = "<group>";
+		};
+		A345CC191C9D252C001AA326 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				A345CC1A1C9D252C001AA326 /* CustomBrushController.h */,
+				A345CC1B1C9D252C001AA326 /* CustomBrushController.m */,
+				A345CC1C1C9D252C001AA326 /* CustomBrushController.xib */,
+				A345CC1F1C9D2562001AA326 /* DrawViewController.h */,
+				A345CC201C9D2562001AA326 /* DrawViewController.m */,
+				A345CC211C9D2562001AA326 /* DrawViewController.xib */,
+				A345CC241C9D2825001AA326 /* CustomLineView.h */,
+				A345CC251C9D2825001AA326 /* CustomLineView.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A345CBD61C9C1508001AA326 /* ShapeDraw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A345CC041C9C1509001AA326 /* Build configuration list for PBXNativeTarget "ShapeDraw" */;
+			buildPhases = (
+				A345CBD31C9C1508001AA326 /* Sources */,
+				A345CBD41C9C1508001AA326 /* Frameworks */,
+				A345CBD51C9C1508001AA326 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShapeDraw;
+			productName = PhotoMixter;
+			productReference = A345CBD71C9C1508001AA326 /* ShapeDraw.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A345CBEF1C9C1509001AA326 /* ShapeDrawTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A345CC071C9C1509001AA326 /* Build configuration list for PBXNativeTarget "ShapeDrawTests" */;
+			buildPhases = (
+				A345CBEC1C9C1509001AA326 /* Sources */,
+				A345CBED1C9C1509001AA326 /* Frameworks */,
+				A345CBEE1C9C1509001AA326 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A345CBF21C9C1509001AA326 /* PBXTargetDependency */,
+			);
+			name = ShapeDrawTests;
+			productName = PhotoMixterTests;
+			productReference = A345CBF01C9C1509001AA326 /* ShapeDraw.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A345CBFA1C9C1509001AA326 /* ShapeDrawUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A345CC0A1C9C1509001AA326 /* Build configuration list for PBXNativeTarget "ShapeDrawUITests" */;
+			buildPhases = (
+				A345CBF71C9C1509001AA326 /* Sources */,
+				A345CBF81C9C1509001AA326 /* Frameworks */,
+				A345CBF91C9C1509001AA326 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A345CBFD1C9C1509001AA326 /* PBXTargetDependency */,
+			);
+			name = ShapeDrawUITests;
+			productName = PhotoMixterUITests;
+			productReference = A345CBFB1C9C1509001AA326 /* ShapeDraw.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A345CBCF1C9C1508001AA326 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Dexati;
+				TargetAttributes = {
+					A345CBD61C9C1508001AA326 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					A345CBEF1C9C1509001AA326 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A345CBD61C9C1508001AA326;
+					};
+					A345CBFA1C9C1509001AA326 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A345CBD61C9C1508001AA326;
+					};
+				};
+			};
+			buildConfigurationList = A345CBD21C9C1508001AA326 /* Build configuration list for PBXProject "ShapeDraw" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A345CBCE1C9C1508001AA326;
+			productRefGroup = A345CBD81C9C1508001AA326 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A345CBD61C9C1508001AA326 /* ShapeDraw */,
+				A345CBEF1C9C1509001AA326 /* ShapeDrawTests */,
+				A345CBFA1C9C1509001AA326 /* ShapeDrawUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A345CBD51C9C1508001AA326 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A345CBE71C9C1509001AA326 /* Assets.xcassets in Resources */,
+				A345CC0E1C9C1582001AA326 /* MainScreenController.xib in Resources */,
+				A345CC1E1C9D252C001AA326 /* CustomBrushController.xib in Resources */,
+				A345CC231C9D2562001AA326 /* DrawViewController.xib in Resources */,
+				A345CC101C9C17C5001AA326 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A345CBEE1C9C1509001AA326 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A345CBF91C9C1509001AA326 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A345CBD31C9C1508001AA326 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A345CC1D1C9D252C001AA326 /* CustomBrushController.m in Sources */,
+				A345CC261C9D2825001AA326 /* CustomLineView.m in Sources */,
+				A345CC221C9D2562001AA326 /* DrawViewController.m in Sources */,
+				A345CBE21C9C1508001AA326 /* MainScreenController.m in Sources */,
+				A345CBDF1C9C1508001AA326 /* AppDelegate.m in Sources */,
+				A345CBDC1C9C1508001AA326 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A345CBEC1C9C1509001AA326 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A345CBF51C9C1509001AA326 /* ShapeDrawTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A345CBF71C9C1509001AA326 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A345CC001C9C1509001AA326 /* ShapeDrawUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A345CBF21C9C1509001AA326 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A345CBD61C9C1508001AA326 /* ShapeDraw */;
+			targetProxy = A345CBF11C9C1509001AA326 /* PBXContainerItemProxy */;
+		};
+		A345CBFD1C9C1509001AA326 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A345CBD61C9C1508001AA326 /* ShapeDraw */;
+			targetProxy = A345CBFC1C9C1509001AA326 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A345CC021C9C1509001AA326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A345CC031C9C1509001AA326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A345CC051C9C1509001AA326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/ShapeDraw/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dexati.PhotoMixer;
+				PRODUCT_NAME = ShapeDraw;
+			};
+			name = Debug;
+		};
+		A345CC061C9C1509001AA326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/ShapeDraw/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dexati.PhotoMixer;
+				PRODUCT_NAME = ShapeDraw;
+			};
+			name = Release;
+		};
+		A345CC081C9C1509001AA326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhotoMixterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dexati.PhotoMixterTests;
+				PRODUCT_NAME = ShapeDraw;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShapeDraw.app/ShapeDraw";
+			};
+			name = Debug;
+		};
+		A345CC091C9C1509001AA326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhotoMixterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dexati.PhotoMixterTests;
+				PRODUCT_NAME = ShapeDraw;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShapeDraw.app/ShapeDraw";
+			};
+			name = Release;
+		};
+		A345CC0B1C9C1509001AA326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PhotoMixterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dexati.PhotoMixterUITests;
+				PRODUCT_NAME = ShapeDraw;
+				TEST_TARGET_NAME = PhotoMixter;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A345CC0C1C9C1509001AA326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PhotoMixterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dexati.PhotoMixterUITests;
+				PRODUCT_NAME = ShapeDraw;
+				TEST_TARGET_NAME = PhotoMixter;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A345CBD21C9C1508001AA326 /* Build configuration list for PBXProject "ShapeDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A345CC021C9C1509001AA326 /* Debug */,
+				A345CC031C9C1509001AA326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A345CC041C9C1509001AA326 /* Build configuration list for PBXNativeTarget "ShapeDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A345CC051C9C1509001AA326 /* Debug */,
+				A345CC061C9C1509001AA326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A345CC071C9C1509001AA326 /* Build configuration list for PBXNativeTarget "ShapeDrawTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A345CC081C9C1509001AA326 /* Debug */,
+				A345CC091C9C1509001AA326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A345CC0A1C9C1509001AA326 /* Build configuration list for PBXNativeTarget "ShapeDrawUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A345CC0B1C9C1509001AA326 /* Debug */,
+				A345CC0C1C9C1509001AA326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A345CBCF1C9C1508001AA326 /* Project object */;
+}
